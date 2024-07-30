@@ -1,0 +1,48 @@
+[9.834s] Invoking command in '/home/dash/Desktop/ros_ws/src/controller': PYTHONPATH=/home/dash/Desktop/ros_ws/build/controller/prefix_override:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/dash/Desktop/ros_ws/build/controller/build install --record /home/dash/Desktop/ros_ws/build/controller/install.log --single-version-externally-managed install_data
+[12.146s] Traceback (most recent call last):
+[12.153s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2851, in get_entry_map
+[12.239s]     ep_map = self._ep_map
+[12.253s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+[12.269s]     raise AttributeError(attr)
+[12.289s] AttributeError: _ep_map. Did you mean: '_dep_map'?
+[12.296s] 
+[12.302s] During handling of the above exception, another exception occurred:
+[12.309s] 
+[12.314s] Traceback (most recent call last):
+[12.320s]   File "/home/dash/Desktop/ros_ws/src/controller/setup.py", line 5, in <module>
+[12.339s]     setup(
+[12.340s]   File "/home/dash/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 152, in setup
+[12.343s]     _install_setup_requires(attrs)
+[12.346s]   File "/home/dash/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+[12.348s]     dist = MinimalDistribution(attrs)
+[12.349s]   File "/home/dash/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 134, in __init__
+[12.350s]     distutils.core.Distribution.__init__(self, filtered)
+[12.352s]   File "/home/dash/.local/lib/python3.10/site-packages/setuptools/dist.py", line 451, in __init__
+[12.375s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[12.378s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 641, in <genexpr>
+[12.385s]     for entry in dist.get_entry_map(group).values()
+[12.387s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2853, in get_entry_map
+[12.390s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[12.393s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2534, in parse_map
+[12.393s]     for group, lines in data:
+[12.394s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3190, in split_sections
+[12.395s]     for line in yield_lines(s):
+[12.399s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2394, in yield_lines
+[12.400s]     for ss in strs:
+[12.401s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2765, in _get_metadata
+[12.402s]     for line in self.get_metadata_lines(name):
+[12.403s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1417, in get_metadata_lines
+[12.406s]     return yield_lines(self.get_metadata(name))
+[12.407s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1406, in get_metadata
+[12.409s]     path = self._get_metadata_path(name)
+[12.410s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1394, in _get_metadata_path
+[12.412s]     return self._fn(self.egg_info, name)
+[12.414s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1473, in _fn
+[12.415s]     self._validate_resource_path(resource_name)
+[12.417s]   File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1534, in _validate_resource_path
+[12.419s]     ntpath.isabs(path)
+[12.420s]   File "/usr/lib/python3.10/ntpath.py", line 98, in isabs
+[12.421s]     s = splitdrive(s)[1]
+[12.423s]   File "/usr/lib/python3.10/ntpath.py", line 180, in splitdrive
+[12.426s]     if (normp[0:2] == sep*2) and (normp[2:3] != sep):
+[12.427s] KeyboardInterrupt

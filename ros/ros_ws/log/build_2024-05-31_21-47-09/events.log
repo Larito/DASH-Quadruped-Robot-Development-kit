@@ -1,0 +1,266 @@
+[0.000000] (-) TimerEvent: {}
+[0.002243] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.002949] (cv_subsystem) JobQueued: {'identifier': 'cv_subsystem', 'dependencies': OrderedDict()}
+[0.003500] (nlp_subsystem) JobQueued: {'identifier': 'nlp_subsystem', 'dependencies': OrderedDict()}
+[0.003748] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.004089] (DASH_bringup) JobQueued: {'identifier': 'DASH_bringup', 'dependencies': OrderedDict([('controller', '/home/dash/Desktop/ros_ws/install/controller'), ('cv_subsystem', '/home/dash/Desktop/ros_ws/install/cv_subsystem'), ('nlp_subsystem', '/home/dash/Desktop/ros_ws/install/nlp_subsystem')])}
+[0.004309] (controller) JobStarted: {'identifier': 'controller'}
+[0.056157] (cv_subsystem) JobStarted: {'identifier': 'cv_subsystem'}
+[0.099732] (-) TimerEvent: {}
+[0.105030] (nlp_subsystem) JobStarted: {'identifier': 'nlp_subsystem'}
+[0.157156] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.202248] (-) TimerEvent: {}
+[0.303921] (-) TimerEvent: {}
+[0.404785] (-) TimerEvent: {}
+[0.505756] (-) TimerEvent: {}
+[0.606656] (-) TimerEvent: {}
+[0.707470] (-) TimerEvent: {}
+[0.808315] (-) TimerEvent: {}
+[0.909157] (-) TimerEvent: {}
+[1.010023] (-) TimerEvent: {}
+[1.110841] (-) TimerEvent: {}
+[1.211679] (-) TimerEvent: {}
+[1.312485] (-) TimerEvent: {}
+[1.413362] (-) TimerEvent: {}
+[1.514184] (-) TimerEvent: {}
+[1.615027] (-) TimerEvent: {}
+[1.715990] (-) TimerEvent: {}
+[1.816861] (-) TimerEvent: {}
+[1.917838] (-) TimerEvent: {}
+[2.018896] (-) TimerEvent: {}
+[2.120562] (-) TimerEvent: {}
+[2.227228] (-) TimerEvent: {}
+[2.328262] (-) TimerEvent: {}
+[2.429298] (-) TimerEvent: {}
+[2.530257] (-) TimerEvent: {}
+[2.631346] (-) TimerEvent: {}
+[2.732328] (-) TimerEvent: {}
+[2.833446] (-) TimerEvent: {}
+[2.934816] (-) TimerEvent: {}
+[3.035631] (-) TimerEvent: {}
+[3.136475] (-) TimerEvent: {}
+[3.237302] (-) TimerEvent: {}
+[3.338206] (-) TimerEvent: {}
+[3.439195] (-) TimerEvent: {}
+[3.540143] (-) TimerEvent: {}
+[3.640964] (-) TimerEvent: {}
+[3.741800] (-) TimerEvent: {}
+[3.842854] (-) TimerEvent: {}
+[3.944459] (-) TimerEvent: {}
+[4.048177] (-) TimerEvent: {}
+[4.149055] (-) TimerEvent: {}
+[4.249919] (-) TimerEvent: {}
+[4.351560] (-) TimerEvent: {}
+[4.452532] (-) TimerEvent: {}
+[4.553466] (-) TimerEvent: {}
+[4.654456] (-) TimerEvent: {}
+[4.755419] (-) TimerEvent: {}
+[4.856487] (-) TimerEvent: {}
+[4.957377] (-) TimerEvent: {}
+[5.058172] (-) TimerEvent: {}
+[5.158986] (-) TimerEvent: {}
+[5.259836] (-) TimerEvent: {}
+[5.360641] (-) TimerEvent: {}
+[5.461488] (-) TimerEvent: {}
+[5.562302] (-) TimerEvent: {}
+[5.663329] (-) TimerEvent: {}
+[5.764521] (-) TimerEvent: {}
+[5.796748] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[5.800969] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[5.803941] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dash/Desktop/ros_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/dash/Desktop/ros_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dash'), ('SSH_CLIENT', '192.168.8.124 61972 22'), ('LC_TIME', 'ar_SA.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/lib:/home/dash/Desktop/depthai-ros/install/depthai_filters/lib:/home/dash/Desktop/depthai-ros/install/depthai_bridge/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dash'), ('OLDPWD', '/home/dash/Desktop'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-002889b4-8ccd-4ea4-9a9d-08e924afbc67.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_SA.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dash/Desktop/depthai-ros/install:/home/dash/Desktop/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dash'), ('IGN_GAZEBO_MODEL_PATH', '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/dash/.local/bin:/opt/ros/humble/bin:/home/dash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dash/Luxonis/depthai/entrypoint:/home/dash/Luxonis/depthai/entrypoint'), ('LC_ADDRESS', 'ar_SA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SA.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c29825cd56.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SA.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share'), ('LC_MEASUREMENT', 'ar_SA.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share'), ('LC_IDENTIFICATION', 'ar_SA.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dash/Desktop/ros_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.124 61972 192.168.8.121 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SA.UTF-8'), ('LC_PAPER', 'ar_SA.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble')]), 'shell': False}
+[5.868207] (-) TimerEvent: {}
+[5.969307] (-) TimerEvent: {}
+[6.073146] (-) TimerEvent: {}
+[6.180759] (-) TimerEvent: {}
+[6.282404] (-) TimerEvent: {}
+[6.357211] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target robot_interfaces__cpp\n'}
+[6.382657] (-) TimerEvent: {}
+[6.484230] (-) TimerEvent: {}
+[6.524349] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[6.584472] (-) TimerEvent: {}
+[6.686165] (-) TimerEvent: {}
+[6.767333] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[6.791846] (-) TimerEvent: {}
+[6.884057] (robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.911899] (-) TimerEvent: {}
+[6.941390] (robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[6.993996] (robot_interfaces) StdoutLine: {'line': b'[ 44%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.012073] (-) TimerEvent: {}
+[7.114992] (-) TimerEvent: {}
+[7.218428] (-) TimerEvent: {}
+[7.288397] (robot_interfaces) StdoutLine: {'line': b'[ 55%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.318675] (-) TimerEvent: {}
+[7.421475] (-) TimerEvent: {}
+[7.526393] (-) TimerEvent: {}
+[7.577860] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.603275] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[7.626604] (-) TimerEvent: {}
+[7.728063] (-) TimerEvent: {}
+[7.828341] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces\n'}
+[7.832805] (-) TimerEvent: {}
+[7.934209] (-) TimerEvent: {}
+[7.984507] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__py\n'}
+[8.034435] (-) TimerEvent: {}
+[8.135369] (-) TimerEvent: {}
+[8.172780] (robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o\x1b[0m\n'}
+[8.233181] (robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o\x1b[0m\n'}
+[8.235951] (robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o\x1b[0m\n'}
+[8.236943] (-) TimerEvent: {}
+[8.337795] (-) TimerEvent: {}
+[8.438871] (-) TimerEvent: {}
+[8.539859] (-) TimerEvent: {}
+[8.641812] (-) TimerEvent: {}
+[8.742854] (-) TimerEvent: {}
+[8.843854] (-) TimerEvent: {}
+[8.944816] (-) TimerEvent: {}
+[9.045936] (-) TimerEvent: {}
+[9.147375] (-) TimerEvent: {}
+[9.248710] (-) TimerEvent: {}
+[9.296408] (robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[9.297500] (robot_interfaces) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[9.298240] (robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.298978] (robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[9.305806] (robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[9.306835] (robot_interfaces) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[9.307464] (robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.308530] (robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[9.325739] (robot_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o] Error 1\n'}
+[9.326670] (robot_interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.338094] (robot_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o] Error 1\n'}
+[9.348930] (-) TimerEvent: {}
+[9.459834] (-) TimerEvent: {}
+[9.563105] (-) TimerEvent: {}
+[9.566386] (robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[9.567886] (robot_interfaces) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[9.575764] (robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.577236] (robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[9.591517] (robot_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:104: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o] Error 1\n'}
+[9.594576] (robot_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/all] Error 2\n'}
+[9.595465] (robot_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.663383] (-) TimerEvent: {}
+[9.766339] (-) TimerEvent: {}
+[9.869278] (-) TimerEvent: {}
+[9.971776] (-) TimerEvent: {}
+[10.075137] (-) TimerEvent: {}
+[10.179088] (-) TimerEvent: {}
+[10.283209] (-) TimerEvent: {}
+[10.359739] (cv_subsystem) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cv_subsystem', 'build', '--build-base', '/home/dash/Desktop/ros_ws/build/cv_subsystem/build', 'install', '--record', '/home/dash/Desktop/ros_ws/build/cv_subsystem/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dash/Desktop/ros_ws/src/cv_subsystem', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dash', 'SSH_CLIENT': '192.168.8.124 61972 22', 'LC_TIME': 'ar_SA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/lib:/home/dash/Desktop/depthai-ros/install/depthai_filters/lib:/home/dash/Desktop/depthai-ros/install/depthai_bridge/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dash', 'OLDPWD': '/home/dash/Desktop', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-002889b4-8ccd-4ea4-9a9d-08e924afbc67.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_SA.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install:/home/dash/Desktop/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dash', 'IGN_GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/dash/.local/bin:/opt/ros/humble/bin:/home/dash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dash/Luxonis/depthai/entrypoint:/home/dash/Luxonis/depthai/entrypoint', 'LC_ADDRESS': 'ar_SA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_SA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c29825cd56.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_SA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_MEASUREMENT': 'ar_SA.UTF-8', 'GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_IDENTIFICATION': 'ar_SA.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dash/Desktop/ros_ws/build/cv_subsystem', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.124 61972 192.168.8.121 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dash/Desktop/ros_ws/build/cv_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_SA.UTF-8', 'LC_PAPER': 'ar_SA.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions'}, 'shell': False}
+[10.383472] (-) TimerEvent: {}
+[10.485214] (-) TimerEvent: {}
+[10.586869] (-) TimerEvent: {}
+[10.682027] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/home/dash/Desktop/ros_ws/build/controller/build', 'install', '--record', '/home/dash/Desktop/ros_ws/build/controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dash/Desktop/ros_ws/src/controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dash', 'SSH_CLIENT': '192.168.8.124 61972 22', 'LC_TIME': 'ar_SA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/lib:/home/dash/Desktop/depthai-ros/install/depthai_filters/lib:/home/dash/Desktop/depthai-ros/install/depthai_bridge/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dash', 'OLDPWD': '/home/dash/Desktop', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-002889b4-8ccd-4ea4-9a9d-08e924afbc67.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_SA.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install:/home/dash/Desktop/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dash', 'IGN_GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/dash/.local/bin:/opt/ros/humble/bin:/home/dash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dash/Luxonis/depthai/entrypoint:/home/dash/Luxonis/depthai/entrypoint', 'LC_ADDRESS': 'ar_SA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_SA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c29825cd56.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_SA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_MEASUREMENT': 'ar_SA.UTF-8', 'GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_IDENTIFICATION': 'ar_SA.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dash/Desktop/ros_ws/build/controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.124 61972 192.168.8.121 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dash/Desktop/ros_ws/build/controller/prefix_override:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_SA.UTF-8', 'LC_PAPER': 'ar_SA.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions'}, 'shell': False}
+[10.690583] (-) TimerEvent: {}
+[10.809114] (-) TimerEvent: {}
+[10.911792] (-) TimerEvent: {}
+[11.013633] (-) TimerEvent: {}
+[11.116729] (-) TimerEvent: {}
+[11.266664] (nlp_subsystem) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nlp_subsystem', 'build', '--build-base', '/home/dash/Desktop/ros_ws/build/nlp_subsystem/build', 'install', '--record', '/home/dash/Desktop/ros_ws/build/nlp_subsystem/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dash/Desktop/ros_ws/src/nlp_subsystem', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dash', 'SSH_CLIENT': '192.168.8.124 61972 22', 'LC_TIME': 'ar_SA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/lib:/home/dash/Desktop/depthai-ros/install/depthai_filters/lib:/home/dash/Desktop/depthai-ros/install/depthai_bridge/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dash', 'OLDPWD': '/home/dash/Desktop', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-002889b4-8ccd-4ea4-9a9d-08e924afbc67.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_SA.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install:/home/dash/Desktop/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dash', 'IGN_GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dash/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/dash/.local/bin:/opt/ros/humble/bin:/home/dash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dash/Luxonis/depthai/entrypoint:/home/dash/Luxonis/depthai/entrypoint', 'LC_ADDRESS': 'ar_SA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_SA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c29825cd56.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_SA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_MEASUREMENT': 'ar_SA.UTF-8', 'GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_IDENTIFICATION': 'ar_SA.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dash/Desktop/ros_ws/build/nlp_subsystem', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.124 61972 192.168.8.121 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dash/Desktop/ros_ws/build/nlp_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_SA.UTF-8', 'LC_PAPER': 'ar_SA.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions'}, 'shell': False}
+[11.272821] (-) TimerEvent: {}
+[11.374903] (-) TimerEvent: {}
+[11.398574] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[11.405353] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[11.406806] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[11.408311] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[11.425612] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[11.438965] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[11.475267] (-) TimerEvent: {}
+[11.584200] (-) TimerEvent: {}
+[11.675817] (robot_interfaces) StdoutLine: {'line': b'[ 85%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[11.687843] (robot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.688661] (-) TimerEvent: {}
+[11.704203] (robot_interfaces) CommandEnded: {'returncode': 2}
+[11.788926] (-) TimerEvent: {}
+[11.890019] (-) TimerEvent: {}
+[11.992260] (-) TimerEvent: {}
+[12.093612] (-) TimerEvent: {}
+[12.195141] (-) TimerEvent: {}
+[12.304216] (-) TimerEvent: {}
+[12.406220] (-) TimerEvent: {}
+[12.509189] (-) TimerEvent: {}
+[12.612507] (-) TimerEvent: {}
+[12.714587] (-) TimerEvent: {}
+[12.815545] (-) TimerEvent: {}
+[12.916923] (-) TimerEvent: {}
+[13.018379] (-) TimerEvent: {}
+[13.109811] (cv_subsystem) StdoutLine: {'line': b'running egg_info\n'}
+[13.114605] (cv_subsystem) StdoutLine: {'line': b'writing ../../build/cv_subsystem/cv_subsystem.egg-info/PKG-INFO\n'}
+[13.129807] (-) TimerEvent: {}
+[13.130581] (cv_subsystem) StdoutLine: {'line': b'writing dependency_links to ../../build/cv_subsystem/cv_subsystem.egg-info/dependency_links.txt\n'}
+[13.131430] (cv_subsystem) StdoutLine: {'line': b'writing entry points to ../../build/cv_subsystem/cv_subsystem.egg-info/entry_points.txt\n'}
+[13.132228] (cv_subsystem) StdoutLine: {'line': b'writing requirements to ../../build/cv_subsystem/cv_subsystem.egg-info/requires.txt\n'}
+[13.132801] (cv_subsystem) StdoutLine: {'line': b'writing top-level names to ../../build/cv_subsystem/cv_subsystem.egg-info/top_level.txt\n'}
+[13.133828] (cv_subsystem) StdoutLine: {'line': b"reading manifest file '../../build/cv_subsystem/cv_subsystem.egg-info/SOURCES.txt'\n"}
+[13.137893] (cv_subsystem) StdoutLine: {'line': b"writing manifest file '../../build/cv_subsystem/cv_subsystem.egg-info/SOURCES.txt'\n"}
+[13.139394] (cv_subsystem) StdoutLine: {'line': b'running build\n'}
+[13.140308] (cv_subsystem) StdoutLine: {'line': b'running build_py\n'}
+[13.141489] (cv_subsystem) StdoutLine: {'line': b'running install\n'}
+[13.143233] (cv_subsystem) StdoutLine: {'line': b'running install_lib\n'}
+[13.189252] (cv_subsystem) StdoutLine: {'line': b'running install_data\n'}
+[13.204567] (cv_subsystem) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.205248] (cv_subsystem) StdoutLine: {'line': b"removing '/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv_subsystem-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.205807] (cv_subsystem) StdoutLine: {'line': b'Copying ../../build/cv_subsystem/cv_subsystem.egg-info to /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv_subsystem-0.0.0-py3.10.egg-info\n'}
+[13.206415] (cv_subsystem) StdoutLine: {'line': b'running install_scripts\n'}
+[13.219892] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 2}
+[13.230068] (-) TimerEvent: {}
+[13.310661] (cv_subsystem) StdoutLine: {'line': b'Installing gesture_recognizer script to /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/cv_subsystem\n'}
+[13.316118] (cv_subsystem) StdoutLine: {'line': b"writing list of installed files to '/home/dash/Desktop/ros_ws/build/cv_subsystem/install.log'\n"}
+[13.330489] (-) TimerEvent: {}
+[13.432132] (-) TimerEvent: {}
+[13.528141] (cv_subsystem) JobEnded: {'identifier': 'cv_subsystem', 'rc': 'SIGINT'}
+[13.544010] (-) TimerEvent: {}
+[13.647379] (-) TimerEvent: {}
+[13.749161] (-) TimerEvent: {}
+[13.850100] (-) TimerEvent: {}
+[13.952034] (-) TimerEvent: {}
+[14.018253] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[14.021465] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[14.022895] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[14.024185] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[14.025195] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[14.026401] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[14.037288] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[14.042073] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[14.043255] (controller) StdoutLine: {'line': b'running build\n'}
+[14.044118] (controller) StdoutLine: {'line': b'running build_py\n'}
+[14.045884] (controller) StdoutLine: {'line': b'running install\n'}
+[14.047718] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[14.068750] (controller) StdoutLine: {'line': b'running install_data\n'}
+[14.069624] (-) TimerEvent: {}
+[14.080307] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.081123] (controller) StdoutLine: {'line': b"removing '/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.081906] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info\n'}
+[14.095391] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[14.169872] (-) TimerEvent: {}
+[14.211067] (nlp_subsystem) StdoutLine: {'line': b'running egg_info\n'}
+[14.212570] (controller) StdoutLine: {'line': b'Installing app_control script to /home/dash/Desktop/ros_ws/install/controller/lib/controller\n'}
+[14.214806] (controller) StdoutLine: {'line': b'Installing handshake script to /home/dash/Desktop/ros_ws/install/controller/lib/controller\n'}
+[14.217590] (controller) StdoutLine: {'line': b'Installing robot_status script to /home/dash/Desktop/ros_ws/install/controller/lib/controller\n'}
+[14.230400] (nlp_subsystem) StdoutLine: {'line': b'writing ../../build/nlp_subsystem/nlp_subsystem.egg-info/PKG-INFO\n'}
+[14.238617] (nlp_subsystem) StdoutLine: {'line': b'writing dependency_links to ../../build/nlp_subsystem/nlp_subsystem.egg-info/dependency_links.txt\n'}
+[14.256966] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/dash/Desktop/ros_ws/build/controller/install.log'\n"}
+[14.266339] (nlp_subsystem) StdoutLine: {'line': b'writing entry points to ../../build/nlp_subsystem/nlp_subsystem.egg-info/entry_points.txt\n'}
+[14.267111] (nlp_subsystem) StdoutLine: {'line': b'writing requirements to ../../build/nlp_subsystem/nlp_subsystem.egg-info/requires.txt\n'}
+[14.267845] (nlp_subsystem) StdoutLine: {'line': b'writing top-level names to ../../build/nlp_subsystem/nlp_subsystem.egg-info/top_level.txt\n'}
+[14.268455] (nlp_subsystem) StdoutLine: {'line': b"reading manifest file '../../build/nlp_subsystem/nlp_subsystem.egg-info/SOURCES.txt'\n"}
+[14.269069] (nlp_subsystem) StdoutLine: {'line': b"writing manifest file '../../build/nlp_subsystem/nlp_subsystem.egg-info/SOURCES.txt'\n"}
+[14.271999] (-) TimerEvent: {}
+[14.278212] (nlp_subsystem) StdoutLine: {'line': b'running build\n'}
+[14.280477] (nlp_subsystem) StdoutLine: {'line': b'running build_py\n'}
+[14.283948] (nlp_subsystem) StdoutLine: {'line': b'running install\n'}
+[14.285535] (nlp_subsystem) StdoutLine: {'line': b'running install_lib\n'}
+[14.288005] (nlp_subsystem) StdoutLine: {'line': b'running install_data\n'}
+[14.290171] (nlp_subsystem) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.304048] (nlp_subsystem) StdoutLine: {'line': b"removing '/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages/nlp_subsystem-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.315075] (nlp_subsystem) StdoutLine: {'line': b'Copying ../../build/nlp_subsystem/nlp_subsystem.egg-info to /home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages/nlp_subsystem-0.0.0-py3.10.egg-info\n'}
+[14.324864] (nlp_subsystem) StdoutLine: {'line': b'running install_scripts\n'}
+[14.372264] (-) TimerEvent: {}
+[14.447058] (controller) JobEnded: {'identifier': 'controller', 'rc': 'SIGINT'}
+[14.472482] (-) TimerEvent: {}
+[14.482614] (nlp_subsystem) StdoutLine: {'line': b'Installing chat_client script to /home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/nlp_subsystem\n'}
+[14.518807] (nlp_subsystem) StdoutLine: {'line': b'Installing voice_assistant script to /home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/nlp_subsystem\n'}
+[14.522120] (nlp_subsystem) StdoutLine: {'line': b"writing list of installed files to '/home/dash/Desktop/ros_ws/build/nlp_subsystem/install.log'\n"}
+[14.572785] (-) TimerEvent: {}
+[14.674164] (-) TimerEvent: {}
+[14.689828] (nlp_subsystem) JobEnded: {'identifier': 'nlp_subsystem', 'rc': 'SIGINT'}
+[14.702697] (DASH_bringup) JobSkipped: {'identifier': 'DASH_bringup'}
+[14.702993] (-) EventReactorShutdown: {}

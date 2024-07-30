@@ -1,0 +1,412 @@
+[0.696s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.697s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb6ac93c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb6c09ea0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb6c09ea0>>)
+[2.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.032s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dash/Desktop/ros_ws'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extension 'ignore'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extension 'ignore_ament_install'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extensions ['colcon_pkg']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extension 'colcon_pkg'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extensions ['colcon_meta']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extension 'colcon_meta'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extensions ['ros']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/DASH_bringup) by extension 'ros'
+[2.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DASH_bringup' with type 'ros.ament_cmake' and name 'DASH_bringup'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[2.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_python' and name 'controller'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extensions ['ignore', 'ignore_ament_install']
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extension 'ignore'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extension 'ignore_ament_install'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extensions ['colcon_pkg']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extension 'colcon_pkg'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extensions ['colcon_meta']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extension 'colcon_meta'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extensions ['ros']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_subsystem) by extension 'ros'
+[2.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv_subsystem' with type 'ros.ament_python' and name 'cv_subsystem'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extensions ['ignore', 'ignore_ament_install']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extension 'ignore'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extension 'ignore_ament_install'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extensions ['colcon_pkg']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extension 'colcon_pkg'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extensions ['colcon_meta']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extension 'colcon_meta'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extensions ['ros']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/nlp_subsystem) by extension 'ros'
+[2.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nlp_subsystem' with type 'ros.ament_python' and name 'nlp_subsystem'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[2.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ignore'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ignore_ament_install'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['colcon_pkg']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'colcon_pkg'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['colcon_meta']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'colcon_meta'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['ros']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ros'
+[2.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/user_interface' with type 'ros.ament_python' and name 'user_interface'
+[2.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/dash/Desktop/depthai-ros/install
+[2.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/dash/Desktop/ros_ws/install
+[2.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/humble
+[2.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.822s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[2.822s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.824s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dash/Desktop/ros_ws/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dash/Desktop/ros_ws/install/controller', 'merge_install': False, 'path': '/home/dash/Desktop/ros_ws/src/controller', 'symlink_install': False, 'test_result_base': None}
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'cmake_args' from command line to 'None'
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'cmake_target' from command line to 'None'
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'cmake_clean_cache' from command line to 'False'
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'cmake_clean_first' from command line to 'False'
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'cmake_force_configure' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'ament_cmake_args' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'catkin_cmake_args' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'cv_subsystem' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.827s] DEBUG:colcon.colcon_core.verb:Building package 'cv_subsystem' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dash/Desktop/ros_ws/build/cv_subsystem', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dash/Desktop/ros_ws/install/cv_subsystem', 'merge_install': False, 'path': '/home/dash/Desktop/ros_ws/src/cv_subsystem', 'symlink_install': False, 'test_result_base': None}
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'cmake_args' from command line to 'None'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'cmake_target' from command line to 'None'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'cmake_clean_cache' from command line to 'False'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'cmake_clean_first' from command line to 'False'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'cmake_force_configure' from command line to 'False'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'ament_cmake_args' from command line to 'None'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'catkin_cmake_args' from command line to 'None'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'nlp_subsystem' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.830s] DEBUG:colcon.colcon_core.verb:Building package 'nlp_subsystem' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dash/Desktop/ros_ws/build/nlp_subsystem', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dash/Desktop/ros_ws/install/nlp_subsystem', 'merge_install': False, 'path': '/home/dash/Desktop/ros_ws/src/nlp_subsystem', 'symlink_install': False, 'test_result_base': None}
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.833s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dash/Desktop/ros_ws/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dash/Desktop/ros_ws/install/robot_interfaces', 'merge_install': False, 'path': '/home/dash/Desktop/ros_ws/src/robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_args' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.836s] DEBUG:colcon.colcon_core.verb:Building package 'user_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dash/Desktop/ros_ws/build/user_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dash/Desktop/ros_ws/install/user_interface', 'merge_install': False, 'path': '/home/dash/Desktop/ros_ws/src/user_interface', 'symlink_install': False, 'test_result_base': None}
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'cmake_args' from command line to 'None'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'cmake_target' from command line to 'None'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'DASH_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.840s] DEBUG:colcon.colcon_core.verb:Building package 'DASH_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dash/Desktop/ros_ws/build/DASH_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dash/Desktop/ros_ws/install/DASH_bringup', 'merge_install': False, 'path': '/home/dash/Desktop/ros_ws/src/DASH_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.840s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.845s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dash/Desktop/ros_ws/src/controller' with build type 'ament_python'
+[2.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ament_prefix_path')
+[2.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/controller/share/controller/hook/ament_prefix_path.ps1'
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/controller/share/controller/hook/ament_prefix_path.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/controller/share/controller/hook/ament_prefix_path.sh'
+[2.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.908s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dash/Desktop/ros_ws/src/cv_subsystem' with build type 'ament_python'
+[2.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_subsystem', 'ament_prefix_path')
+[2.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/hook/ament_prefix_path.ps1'
+[2.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/hook/ament_prefix_path.dsv'
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/hook/ament_prefix_path.sh'
+[2.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.953s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dash/Desktop/ros_ws/src/nlp_subsystem' with build type 'ament_python'
+[2.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('nlp_subsystem', 'ament_prefix_path')
+[2.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/hook/ament_prefix_path.ps1'
+[2.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/hook/ament_prefix_path.dsv'
+[2.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/hook/ament_prefix_path.sh'
+[2.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.001s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dash/Desktop/ros_ws/src/robot_interfaces' with build type 'ament_cmake'
+[3.001s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dash/Desktop/ros_ws/src/robot_interfaces'
+[3.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.811s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dash/Desktop/ros_ws/src/controller'
+[4.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dash/Desktop/ros_ws/src/cv_subsystem'
+[6.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dash/Desktop/ros_ws/src/nlp_subsystem'
+[8.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[12.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/src/nlp_subsystem': PYTHONPATH=/home/dash/Desktop/ros_ws/build/nlp_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nlp_subsystem build --build-base /home/dash/Desktop/ros_ws/build/nlp_subsystem/build install --record /home/dash/Desktop/ros_ws/build/nlp_subsystem/install.log --single-version-externally-managed install_data
+[12.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/src/controller': PYTHONPATH=/home/dash/Desktop/ros_ws/build/controller/prefix_override:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/dash/Desktop/ros_ws/build/controller/build install --record /home/dash/Desktop/ros_ws/build/controller/install.log --single-version-externally-managed install_data
+[13.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/src/cv_subsystem': PYTHONPATH=/home/dash/Desktop/ros_ws/build/cv_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cv_subsystem build --build-base /home/dash/Desktop/ros_ws/build/cv_subsystem/build install --record /home/dash/Desktop/ros_ws/build/cv_subsystem/install.log --single-version-externally-managed install_data
+[14.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[15.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/dash/Desktop/ros_ws/build/robot_interfaces
+[16.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/src/nlp_subsystem' returned '0': PYTHONPATH=/home/dash/Desktop/ros_ws/build/nlp_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nlp_subsystem build --build-base /home/dash/Desktop/ros_ws/build/nlp_subsystem/build install --record /home/dash/Desktop/ros_ws/build/nlp_subsystem/install.log --single-version-externally-managed install_data
+[16.589s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem' for CMake module files
+[16.607s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem' for CMake config files
+[16.618s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib'
+[16.620s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem/bin'
+[16.621s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/pkgconfig/nlp_subsystem.pc'
+[16.632s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages'
+[16.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('nlp_subsystem', 'pythonpath')
+[16.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/hook/pythonpath.ps1'
+[16.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/hook/pythonpath.dsv'
+[16.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/hook/pythonpath.sh'
+[16.687s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/nlp_subsystem/bin'
+[16.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nlp_subsystem)
+[16.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/package.ps1'
+[16.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/package.dsv'
+[16.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/package.sh'
+[16.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/package.bash'
+[16.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/nlp_subsystem/package.zsh'
+[16.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/nlp_subsystem/share/colcon-core/packages/nlp_subsystem)
+[16.801s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dash/Desktop/ros_ws/src/user_interface' with build type 'ament_python'
+[16.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ament_prefix_path')
+[16.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/hook/ament_prefix_path.ps1'
+[16.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/hook/ament_prefix_path.dsv'
+[16.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/hook/ament_prefix_path.sh'
+[16.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.033s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem' for CMake module files
+[17.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/src/cv_subsystem' returned '0': PYTHONPATH=/home/dash/Desktop/ros_ws/build/cv_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cv_subsystem build --build-base /home/dash/Desktop/ros_ws/build/cv_subsystem/build install --record /home/dash/Desktop/ros_ws/build/cv_subsystem/install.log --single-version-externally-managed install_data
+[17.048s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem' for CMake config files
+[17.056s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem/lib'
+[17.058s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem/bin'
+[17.058s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/pkgconfig/cv_subsystem.pc'
+[17.060s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages'
+[17.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_subsystem', 'pythonpath')
+[17.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/hook/pythonpath.ps1'
+[17.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/hook/pythonpath.dsv'
+[17.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/hook/pythonpath.sh'
+[17.073s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/cv_subsystem/bin'
+[17.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_subsystem)
+[17.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/package.ps1'
+[17.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/package.dsv'
+[17.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/package.sh'
+[17.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/package.bash'
+[17.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem/package.zsh'
+[17.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/cv_subsystem/share/colcon-core/packages/cv_subsystem)
+[17.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[17.096s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces' for CMake module files
+[17.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/dash/Desktop/ros_ws/build/robot_interfaces
+[17.105s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces' for CMake config files
+[17.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[17.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[17.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[17.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[17.119s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib'
+[17.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[17.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[17.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[17.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[17.129s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/bin'
+[17.130s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[17.131s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages'
+[17.132s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/bin'
+[17.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[17.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[17.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[17.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[17.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[17.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[17.159s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller' for CMake module files
+[17.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/src/controller' returned '0': PYTHONPATH=/home/dash/Desktop/ros_ws/build/controller/prefix_override:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/dash/Desktop/ros_ws/build/controller/build install --record /home/dash/Desktop/ros_ws/build/controller/install.log --single-version-externally-managed install_data
+[17.166s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller' for CMake config files
+[17.171s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller/lib'
+[17.172s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller/bin'
+[17.172s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller/lib/pkgconfig/controller.pc'
+[17.174s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages'
+[17.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'pythonpath')
+[17.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/controller/share/controller/hook/pythonpath.ps1'
+[17.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/controller/share/controller/hook/pythonpath.dsv'
+[17.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/controller/share/controller/hook/pythonpath.sh'
+[17.187s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/controller/bin'
+[17.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[17.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/controller/share/controller/package.ps1'
+[17.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/controller/share/controller/package.dsv'
+[17.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/controller/share/controller/package.sh'
+[17.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/controller/share/controller/package.bash'
+[17.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/controller/share/controller/package.zsh'
+[17.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/controller/share/colcon-core/packages/controller)
+[19.224s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dash/Desktop/ros_ws/src/user_interface'
+[19.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dash/Desktop/ros_ws/src/DASH_bringup' with build type 'ament_cmake'
+[19.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dash/Desktop/ros_ws/src/DASH_bringup'
+[19.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[19.304s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces' for CMake module files
+[19.310s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces' for CMake config files
+[19.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[19.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[19.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[19.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[19.322s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib'
+[19.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[19.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[19.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[19.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[19.333s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/bin'
+[19.334s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[19.335s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages'
+[19.336s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/robot_interfaces/bin'
+[19.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[19.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[19.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[19.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[19.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[19.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[19.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/build/DASH_bringup': AMENT_PREFIX_PATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble PYTHONPATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/DASH_bringup -- -j4 -l4
+[19.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/build/DASH_bringup' returned '0': AMENT_PREFIX_PATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble PYTHONPATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/DASH_bringup -- -j4 -l4
+[19.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/build/DASH_bringup': AMENT_PREFIX_PATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble PYTHONPATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/dash/Desktop/ros_ws/build/DASH_bringup
+[19.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(DASH_bringup)
+[19.897s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup' for CMake module files
+[19.906s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup' for CMake config files
+[19.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('DASH_bringup', 'cmake_prefix_path')
+[19.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/hook/cmake_prefix_path.ps1'
+[19.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/hook/cmake_prefix_path.dsv'
+[19.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/build/DASH_bringup' returned '0': AMENT_PREFIX_PATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble PYTHONPATH=/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/dash/Desktop/ros_ws/build/DASH_bringup
+[19.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/hook/cmake_prefix_path.sh'
+[19.932s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/bin'
+[19.933s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/lib/pkgconfig/DASH_bringup.pc'
+[19.935s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/lib/python3.10/site-packages'
+[19.936s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/bin'
+[19.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.ps1'
+[19.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.dsv'
+[19.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.sh'
+[19.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.bash'
+[19.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.zsh'
+[19.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/DASH_bringup/share/colcon-core/packages/DASH_bringup)
+[20.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(DASH_bringup)
+[20.137s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup' for CMake module files
+[20.141s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup' for CMake config files
+[20.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('DASH_bringup', 'cmake_prefix_path')
+[20.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/hook/cmake_prefix_path.ps1'
+[20.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/hook/cmake_prefix_path.dsv'
+[20.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/hook/cmake_prefix_path.sh'
+[20.155s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/bin'
+[20.156s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/lib/pkgconfig/DASH_bringup.pc'
+[20.157s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/lib/python3.10/site-packages'
+[20.159s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/DASH_bringup/bin'
+[20.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.ps1'
+[20.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.dsv'
+[20.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.sh'
+[20.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.bash'
+[20.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/DASH_bringup/share/DASH_bringup/package.zsh'
+[20.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/DASH_bringup/share/colcon-core/packages/DASH_bringup)
+[21.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dash/Desktop/ros_ws/src/user_interface': PYTHONPATH=/home/dash/Desktop/ros_ws/build/user_interface/prefix_override:/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /home/dash/Desktop/ros_ws/build/user_interface/build install --record /home/dash/Desktop/ros_ws/build/user_interface/install.log --single-version-externally-managed install_data
+[23.658s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface' for CMake module files
+[23.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dash/Desktop/ros_ws/src/user_interface' returned '0': PYTHONPATH=/home/dash/Desktop/ros_ws/build/user_interface/prefix_override:/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /home/dash/Desktop/ros_ws/build/user_interface/build install --record /home/dash/Desktop/ros_ws/build/user_interface/install.log --single-version-externally-managed install_data
+[23.662s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface' for CMake config files
+[23.666s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface/lib'
+[23.667s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface/bin'
+[23.667s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface/lib/pkgconfig/user_interface.pc'
+[23.668s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface/lib/python3.10/site-packages'
+[23.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[23.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[23.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[23.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[23.678s] Level 1:colcon.colcon_core.environment:checking '/home/dash/Desktop/ros_ws/install/user_interface/bin'
+[23.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[23.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/package.ps1'
+[23.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/package.dsv'
+[23.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/package.sh'
+[23.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/package.bash'
+[23.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/dash/Desktop/ros_ws/install/user_interface/share/user_interface/package.zsh'
+[23.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dash/Desktop/ros_ws/install/user_interface/share/colcon-core/packages/user_interface)
+[23.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.697s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.895s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.896s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.947s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dash/Desktop/ros_ws/install/local_setup.ps1'
+[24.028s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dash/Desktop/ros_ws/install/_local_setup_util_ps1.py'
+[24.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dash/Desktop/ros_ws/install/setup.ps1'
+[24.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dash/Desktop/ros_ws/install/local_setup.sh'
+[24.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dash/Desktop/ros_ws/install/_local_setup_util_sh.py'
+[24.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dash/Desktop/ros_ws/install/setup.sh'
+[24.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dash/Desktop/ros_ws/install/local_setup.bash'
+[24.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dash/Desktop/ros_ws/install/setup.bash'
+[24.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dash/Desktop/ros_ws/install/local_setup.zsh'
+[24.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dash/Desktop/ros_ws/install/setup.zsh'

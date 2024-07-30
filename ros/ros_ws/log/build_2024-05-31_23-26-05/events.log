@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001985] (-) JobUnselected: {'identifier': 'DASH_bringup'}
+[0.002950] (-) JobUnselected: {'identifier': 'controller'}
+[0.003595] (-) JobUnselected: {'identifier': 'nlp_subsystem'}
+[0.003870] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.004337] (cv_subsystem) JobQueued: {'identifier': 'cv_subsystem', 'dependencies': OrderedDict()}
+[0.004629] (cv_subsystem) JobStarted: {'identifier': 'cv_subsystem'}
+[0.098937] (-) TimerEvent: {}
+[0.200393] (-) TimerEvent: {}
+[0.301221] (-) TimerEvent: {}
+[0.402078] (-) TimerEvent: {}
+[0.502930] (-) TimerEvent: {}
+[0.603780] (-) TimerEvent: {}
+[0.704829] (-) TimerEvent: {}
+[0.805812] (-) TimerEvent: {}
+[0.906574] (-) TimerEvent: {}
+[1.007376] (-) TimerEvent: {}
+[1.108109] (-) TimerEvent: {}
+[1.208944] (-) TimerEvent: {}
+[1.309763] (-) TimerEvent: {}
+[1.410546] (-) TimerEvent: {}
+[1.511321] (-) TimerEvent: {}
+[1.612104] (-) TimerEvent: {}
+[1.712887] (-) TimerEvent: {}
+[1.813932] (-) TimerEvent: {}
+[1.916047] (-) TimerEvent: {}
+[2.017098] (-) TimerEvent: {}
+[2.118459] (-) TimerEvent: {}
+[2.219312] (-) TimerEvent: {}
+[2.320214] (-) TimerEvent: {}
+[2.421138] (-) TimerEvent: {}
+[2.521906] (-) TimerEvent: {}
+[2.622788] (-) TimerEvent: {}
+[2.723731] (-) TimerEvent: {}
+[2.824673] (-) TimerEvent: {}
+[2.925420] (-) TimerEvent: {}
+[3.026304] (-) TimerEvent: {}
+[3.127099] (-) TimerEvent: {}
+[3.227908] (-) TimerEvent: {}
+[3.328747] (-) TimerEvent: {}
+[3.429673] (-) TimerEvent: {}
+[3.530477] (-) TimerEvent: {}
+[3.631305] (-) TimerEvent: {}
+[3.732103] (-) TimerEvent: {}
+[3.832950] (-) TimerEvent: {}
+[3.933777] (-) TimerEvent: {}
+[4.035297] (-) TimerEvent: {}
+[4.136260] (-) TimerEvent: {}
+[4.237690] (-) TimerEvent: {}
+[4.248573] (cv_subsystem) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cv_subsystem', 'build', '--build-base', '/home/dash/Desktop/ros_ws/build/cv_subsystem/build', 'install', '--record', '/home/dash/Desktop/ros_ws/build/cv_subsystem/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dash/Desktop/ros_ws/src/cv_subsystem', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dash', 'LC_TIME': 'ar_SA.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dash/Desktop/ros_ws/install/robot_interfaces/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/lib:/home/dash/Desktop/depthai-ros/install/depthai_filters/lib:/home/dash/Desktop/depthai-ros/install/depthai_bridge/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dash', 'OLDPWD': '/home/dash/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_SA.UTF-8', 'SYSTEMD_EXEC_PID': '1470', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install:/home/dash/Desktop/ros_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dash', 'IGN_GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dash', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/dash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dash/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/dash:@/tmp/.ICE-unix/1265,unix/dash:/tmp/.ICE-unix/1265', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_SA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/90f404e3_d9e5_4f18_8a50_11fa1af99878', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_SA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_SA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_MEASUREMENT': 'ar_SA.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_IDENTIFICATION': 'ar_SA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dash/Desktop/ros_ws/build/cv_subsystem', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dash/Desktop/ros_ws/build/cv_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_SA.UTF-8', 'LC_PAPER': 'ar_SA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/DASH_bringup:/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions'}, 'shell': False}
+[4.337871] (-) TimerEvent: {}
+[4.438914] (-) TimerEvent: {}
+[4.539850] (-) TimerEvent: {}
+[4.640875] (-) TimerEvent: {}
+[4.741714] (-) TimerEvent: {}
+[4.842507] (-) TimerEvent: {}
+[4.943507] (-) TimerEvent: {}
+[5.044368] (-) TimerEvent: {}
+[5.145126] (-) TimerEvent: {}
+[5.246135] (-) TimerEvent: {}
+[5.347165] (-) TimerEvent: {}
+[5.447926] (-) TimerEvent: {}
+[5.548992] (-) TimerEvent: {}
+[5.649816] (-) TimerEvent: {}
+[5.750844] (-) TimerEvent: {}
+[5.851602] (-) TimerEvent: {}
+[5.942721] (cv_subsystem) StdoutLine: {'line': b'running egg_info\n'}
+[5.945727] (cv_subsystem) StdoutLine: {'line': b'writing ../../build/cv_subsystem/cv_subsystem.egg-info/PKG-INFO\n'}
+[5.947029] (cv_subsystem) StdoutLine: {'line': b'writing dependency_links to ../../build/cv_subsystem/cv_subsystem.egg-info/dependency_links.txt\n'}
+[5.948054] (cv_subsystem) StdoutLine: {'line': b'writing entry points to ../../build/cv_subsystem/cv_subsystem.egg-info/entry_points.txt\n'}
+[5.949030] (cv_subsystem) StdoutLine: {'line': b'writing requirements to ../../build/cv_subsystem/cv_subsystem.egg-info/requires.txt\n'}
+[5.949862] (cv_subsystem) StdoutLine: {'line': b'writing top-level names to ../../build/cv_subsystem/cv_subsystem.egg-info/top_level.txt\n'}
+[5.951744] (-) TimerEvent: {}
+[5.969101] (cv_subsystem) StdoutLine: {'line': b"reading manifest file '../../build/cv_subsystem/cv_subsystem.egg-info/SOURCES.txt'\n"}
+[5.969909] (cv_subsystem) StdoutLine: {'line': b"writing manifest file '../../build/cv_subsystem/cv_subsystem.egg-info/SOURCES.txt'\n"}
+[5.970630] (cv_subsystem) StdoutLine: {'line': b'running build\n'}
+[5.971353] (cv_subsystem) StdoutLine: {'line': b'running build_py\n'}
+[5.971842] (cv_subsystem) StdoutLine: {'line': b'copying cv_subsystem/gesture_recognizer.py -> /home/dash/Desktop/ros_ws/build/cv_subsystem/build/lib/cv_subsystem\n'}
+[5.974927] (cv_subsystem) StdoutLine: {'line': b'running install\n'}
+[5.975980] (cv_subsystem) StdoutLine: {'line': b'running install_lib\n'}
+[5.979750] (cv_subsystem) StdoutLine: {'line': b'copying /home/dash/Desktop/ros_ws/build/cv_subsystem/build/lib/cv_subsystem/gesture_recognizer.py -> /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv_subsystem\n'}
+[5.984446] (cv_subsystem) StdoutLine: {'line': b'byte-compiling /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv_subsystem/gesture_recognizer.py to gesture_recognizer.cpython-310.pyc\n'}
+[5.990817] (cv_subsystem) StdoutLine: {'line': b'running install_data\n'}
+[5.991913] (cv_subsystem) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.001728] (cv_subsystem) StdoutLine: {'line': b"removing '/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv_subsystem-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.008743] (cv_subsystem) StdoutLine: {'line': b'Copying ../../build/cv_subsystem/cv_subsystem.egg-info to /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv_subsystem-0.0.0-py3.10.egg-info\n'}
+[6.016887] (cv_subsystem) StdoutLine: {'line': b'running install_scripts\n'}
+[6.051964] (-) TimerEvent: {}
+[6.114729] (cv_subsystem) StdoutLine: {'line': b'Installing gesture_recognizer script to /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/cv_subsystem\n'}
+[6.116751] (cv_subsystem) StdoutLine: {'line': b"writing list of installed files to '/home/dash/Desktop/ros_ws/build/cv_subsystem/install.log'\n"}
+[6.152342] (-) TimerEvent: {}
+[6.253897] (-) TimerEvent: {}
+[6.274130] (cv_subsystem) CommandEnded: {'returncode': 0}
+[6.342292] (cv_subsystem) JobEnded: {'identifier': 'cv_subsystem', 'rc': 0}
+[6.347825] (-) EventReactorShutdown: {}

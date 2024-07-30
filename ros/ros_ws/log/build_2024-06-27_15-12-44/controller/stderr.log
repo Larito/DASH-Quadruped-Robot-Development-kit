@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2851, in get_entry_map
+    ep_map = self._ep_map
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+    raise AttributeError(attr)
+AttributeError: _ep_map. Did you mean: '_dep_map'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dash/Desktop/ros_ws/src/controller/setup.py", line 5, in <module>
+    setup(
+  File "/home/dash/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 152, in setup
+    _install_setup_requires(attrs)
+  File "/home/dash/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+    dist = MinimalDistribution(attrs)
+  File "/home/dash/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 134, in __init__
+    distutils.core.Distribution.__init__(self, filtered)
+  File "/home/dash/.local/lib/python3.10/site-packages/setuptools/dist.py", line 451, in __init__
+    for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 641, in <genexpr>
+    for entry in dist.get_entry_map(group).values()
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2853, in get_entry_map
+    ep_map = self._ep_map = EntryPoint.parse_map(
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2534, in parse_map
+    for group, lines in data:
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3190, in split_sections
+    for line in yield_lines(s):
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2394, in yield_lines
+    for ss in strs:
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2765, in _get_metadata
+    for line in self.get_metadata_lines(name):
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1417, in get_metadata_lines
+    return yield_lines(self.get_metadata(name))
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1406, in get_metadata
+    path = self._get_metadata_path(name)
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1394, in _get_metadata_path
+    return self._fn(self.egg_info, name)
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1473, in _fn
+    self._validate_resource_path(resource_name)
+  File "/home/dash/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1534, in _validate_resource_path
+    ntpath.isabs(path)
+  File "/usr/lib/python3.10/ntpath.py", line 98, in isabs
+    s = splitdrive(s)[1]
+  File "/usr/lib/python3.10/ntpath.py", line 180, in splitdrive
+    if (normp[0:2] == sep*2) and (normp[2:3] != sep):
+KeyboardInterrupt

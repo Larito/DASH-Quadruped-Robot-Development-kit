@@ -1,0 +1,288 @@
+[4.182s] Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dash/Desktop/ros_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/dash/Desktop/ros_ws/install/robot_interfaces
+[5.974s] -- The C compiler identification is GNU 11.4.0
+[7.005s] -- The CXX compiler identification is GNU 11.4.0
+[7.232s] -- Detecting C compiler ABI info
+[7.853s] -- Detecting C compiler ABI info - done
+[7.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.905s] -- Detecting C compile features
+[7.914s] -- Detecting C compile features - done
+[7.985s] -- Detecting CXX compiler ABI info
+[8.863s] -- Detecting CXX compiler ABI info - done
+[8.952s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.953s] -- Detecting CXX compile features
+[8.953s] -- Detecting CXX compile features - done
+[9.022s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.087s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.196s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.311s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[14.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.720s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[15.742s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[15.876s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[15.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.878s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[15.878s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[15.988s] -- Found PythonExtra: .so  
+[16.273s] -- Configuring done
+[16.542s] -- Generating done
+[16.564s] -- Build files have been written to: /home/dash/Desktop/ros_ws/build/robot_interfaces
+[16.589s] Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dash/Desktop/ros_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/dash/Desktop/ros_ws/install/robot_interfaces
+[16.601s] Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[16.816s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.855s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.964s] [  4%] Built target ament_cmake_python_copy_robot_interfaces
+[18.980s] running egg_info
+[18.993s] creating robot_interfaces.egg-info
+[18.994s] writing robot_interfaces.egg-info/PKG-INFO
+[18.995s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[19.001s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[19.005s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[19.022s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[19.027s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[19.224s] [  4%] Built target ament_cmake_python_build_robot_interfaces_egg
+[19.590s] [  4%] Built target robot_interfaces__cpp
+[19.750s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.892s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.906s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.034s] [ 12%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/lm_chat__functions.c.o[0m
+[20.748s] [ 14%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/handshake__functions.c.o[0m
+[21.212s] [ 17%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/robot_status_srv__functions.c.o[0m
+[21.746s] [ 19%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[21.944s] [ 21%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/lm_chat__type_support.cpp.o[0m
+[22.354s] [ 21%] Built target robot_interfaces__rosidl_generator_c
+[22.434s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.566s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/lm_chat__type_support.cpp.o[0m
+[22.673s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/lm_chat__type_support.cpp.o[0m
+[24.808s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/lm_chat__type_support_c.cpp.o[0m
+[26.426s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/handshake__type_support.cpp.o[0m
+[27.780s] [ 34%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/handshake__type_support.cpp.o[0m
+[27.815s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/handshake__type_support_c.cpp.o[0m
+[27.906s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/handshake__type_support.cpp.o[0m
+[28.661s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/robot_status_srv__type_support.cpp.o[0m
+[30.894s] [ 42%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[31.009s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/robot_status_srv__type_support_c.cpp.o[0m
+[31.068s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/robot_status_srv__type_support.cpp.o[0m
+[31.168s] [ 46%] Built target robot_interfaces__rosidl_typesupport_cpp
+[31.226s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/robot_status_srv__type_support.cpp.o[0m
+[31.282s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[33.628s] [ 53%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[34.083s] [ 53%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[34.121s] [ 55%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[34.138s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[34.616s] [ 59%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/lm_chat__type_support.c.o[0m
+[34.643s] [ 59%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[34.693s] [ 61%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/handshake__type_support.c.o[0m
+[34.853s] [ 63%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.968s] [ 65%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/robot_status_srv__type_support.c.o[0m
+[35.255s] [ 68%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[35.355s] [ 68%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[35.510s] [ 68%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[36.102s] [ 70%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/lm_chat__type_support.cpp.o[0m
+[36.108s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/robot_status_srv__type_support.cpp.o[0m
+[36.110s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/handshake__type_support.cpp.o[0m
+[36.299s] [ 76%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[36.502s] [ 76%] Built target robot_interfaces__rosidl_typesupport_c
+[36.614s] [ 76%] Built target robot_interfaces
+[36.741s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[40.230s] [ 78%] Built target robot_interfaces__py
+[40.348s] [ 80%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o[0m
+[40.352s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o[0m
+[41.829s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o[0m
+[42.401s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[42.647s] [ 87%] Built target robot_interfaces__rosidl_generator_py
+[42.772s] [ 89%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.508s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[43.738s] [ 91%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[43.848s] [ 93%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[44.480s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[44.668s] [ 95%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[44.818s] [ 97%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[45.534s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[45.739s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[45.798s] Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[46.515s] Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dash/Desktop/ros_ws/build/robot_interfaces
+[46.574s] -- Install configuration: ""
+[46.575s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[46.576s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[46.583s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[46.586s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[46.587s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__functions.c
+[46.588s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__struct.h
+[46.594s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__functions.h
+[46.603s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__functions.c
+[46.610s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__functions.h
+[46.613s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__struct.h
+[46.622s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__struct.h
+[46.622s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__functions.c
+[46.629s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__type_support.h
+[46.631s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__type_support.h
+[46.646s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__functions.h
+[46.654s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__type_support.h
+[46.655s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/robot_status_srv.h
+[46.679s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/lm_chat.h
+[46.680s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/handshake.h
+[46.681s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[46.682s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[46.683s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[46.684s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[46.695s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[46.706s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[46.707s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[46.708s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[46.709s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[46.710s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__rosidl_typesupport_fastrtps_c.h
+[46.711s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__rosidl_typesupport_fastrtps_c.h
+[46.712s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__rosidl_typesupport_fastrtps_c.h
+[46.712s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[46.714s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[46.715s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[46.716s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[46.716s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[46.719s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[46.720s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[46.721s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__rosidl_typesupport_introspection_c.h
+[46.722s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__rosidl_typesupport_introspection_c.h
+[46.723s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__rosidl_typesupport_introspection_c.h
+[46.724s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__type_support.c
+[46.724s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__type_support.c
+[46.726s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__type_support.c
+[46.727s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[46.728s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.729s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[46.729s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[46.730s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[46.731s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[46.733s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[46.734s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[46.736s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[46.737s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__builder.hpp
+[46.738s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__struct.hpp
+[46.739s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__builder.hpp
+[46.741s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__builder.hpp
+[46.744s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__struct.hpp
+[46.747s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__traits.hpp
+[46.749s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__traits.hpp
+[46.752s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__traits.hpp
+[46.755s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__struct.hpp
+[46.759s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/robot_status_srv.hpp
+[46.760s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/handshake.hpp
+[46.762s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/lm_chat.hpp
+[46.763s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[46.763s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[46.764s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[46.765s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps
+[46.766s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__rosidl_typesupport_fastrtps_cpp.hpp
+[46.767s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__rosidl_typesupport_fastrtps_cpp.hpp
+[46.768s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[46.772s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[46.774s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.778s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[46.783s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[46.785s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[46.786s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[46.786s] -- Up-to-date: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[46.787s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__rosidl_typesupport_introspection_cpp.hpp
+[46.788s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/handshake__type_support.cpp
+[46.790s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__type_support.cpp
+[46.794s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/lm_chat__rosidl_typesupport_introspection_cpp.hpp
+[46.794s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__type_support.cpp
+[46.797s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_status_srv__rosidl_typesupport_introspection_cpp.hpp
+[46.798s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[46.803s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[46.804s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[46.808s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[46.814s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[46.814s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[46.818s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[46.819s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[46.829s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[46.830s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[46.831s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[46.831s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[46.832s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[46.833s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[46.842s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[46.843s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[46.844s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.845s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv
+[46.850s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_status_srv_s.c
+[46.850s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_status_srv.py
+[46.852s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_lm_chat_s.c
+[46.853s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_handshake_s.c
+[46.856s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_handshake.py
+[46.874s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py
+[46.875s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_lm_chat.py
+[46.875s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[46.876s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[46.877s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[47.093s] Listing '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[47.099s] Compiling '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[47.104s] Listing '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...
+[47.109s] Compiling '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py'...
+[47.114s] Compiling '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_handshake.py'...
+[47.118s] Compiling '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_lm_chat.py'...
+[47.123s] Compiling '/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_status_srv.py'...
+[47.134s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[47.137s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.139s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[47.143s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.145s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[47.150s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.154s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[47.159s] -- Set runtime path of "/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[47.160s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/LMChat.idl
+[47.160s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/Handshake.idl
+[47.164s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/RobotStatusSrv.idl
+[47.165s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/LMChat.srv
+[47.166s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/LMChat_Request.msg
+[47.166s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/LMChat_Response.msg
+[47.215s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/Handshake.srv
+[47.216s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/Handshake_Request.msg
+[47.216s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/Handshake_Response.msg
+[47.217s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/RobotStatusSrv.srv
+[47.223s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/RobotStatusSrv_Request.msg
+[47.224s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/srv/RobotStatusSrv_Response.msg
+[47.227s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[47.229s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[47.231s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[47.233s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[47.234s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[47.237s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[47.239s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[47.241s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[47.244s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[47.246s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[47.248s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[47.250s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[47.253s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[47.260s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[47.280s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[47.286s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[47.297s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[47.298s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[47.299s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[47.305s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[47.306s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[47.321s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[47.323s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[47.328s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[47.339s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[47.340s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[47.341s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[47.342s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[47.348s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[47.351s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[47.355s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.362s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[47.363s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[47.364s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.367s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.369s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.372s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[47.374s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[47.376s] -- Installing: /home/dash/Desktop/ros_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[47.392s] Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dash/Desktop/ros_ws/build/robot_interfaces

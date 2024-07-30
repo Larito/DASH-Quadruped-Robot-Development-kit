@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollama Prompt</title>
+</head>
+<body>
+    <h1>Ollama Prompt</h1>
+    <form action="/prompt" method="POST">
+        <label for="prompt">Enter your prompt:</label>
+        <input type="text" id="prompt" name="prompt" required>
+        <button type="submit">Submit</button>
+    </form>
+    {% if prompt %}
+        <h2>Prompt:</h2>
+        <p>{{ prompt }}</p>
+    {% endif %}
+    {% if response %}
+        <h2>Response:</h2>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,34 @@
+[  2%] Built target robot_interfaces__cpp
+[ 12%] Built target robot_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_robot_interfaces
+[ 23%] Built target robot_interfaces__rosidl_typesupport_cpp
+[ 34%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 44%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[ 55%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[ 65%] Built target robot_interfaces__rosidl_typesupport_c
+[ 76%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[ 76%] Built target robot_interfaces
+[ 78%] Built target robot_interfaces__py
+[ 80%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o[0m
+[01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing robot_interfaces.egg-info/PKG-INFO
+writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+writing top-level names to robot_interfaces.egg-info/top_level.txt
+reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_robot_interfaces_egg
+gmake: *** [Makefile:146: all] Error 2

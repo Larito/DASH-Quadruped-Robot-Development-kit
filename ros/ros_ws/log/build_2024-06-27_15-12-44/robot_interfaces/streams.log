@@ -1,0 +1,56 @@
+[5.496s] Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[6.048s] [ 11%] Built target robot_interfaces__rosidl_generator_c
+[6.142s] [ 12%] Built target robot_interfaces__cpp
+[6.440s] [ 23%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[6.569s] [ 23%] Built target ament_cmake_python_copy_robot_interfaces
+[6.695s] [ 34%] Built target robot_interfaces__rosidl_typesupport_c
+[6.920s] [ 46%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.037s] [ 57%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[7.148s] [ 68%] Built target robot_interfaces__rosidl_typesupport_cpp
+[7.471s] [ 79%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[7.852s] [ 79%] Built target robot_interfaces
+[8.071s] [ 80%] Built target robot_interfaces__py
+[8.303s] [ 90%] Built target robot_interfaces__rosidl_generator_py
+[8.504s] [ 93%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.828s] [ 96%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[9.092s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.003s] running egg_info
+[11.008s] writing robot_interfaces.egg-info/PKG-INFO
+[11.012s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[11.015s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[11.024s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[11.029s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[11.219s] [100%] Built target ament_cmake_python_build_robot_interfaces_egg
+[11.347s] Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/user_interface:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[12.287s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/dash/Desktop/ros_ws/build/robot_interfaces', '--target', 'help'] to pass: gmake: *** [Makefile:1500: help] Interrupt
+

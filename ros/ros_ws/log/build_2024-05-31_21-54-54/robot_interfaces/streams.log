@@ -1,0 +1,65 @@
+[5.332s] Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[5.577s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.964s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.048s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.294s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[12.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.259s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[14.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[14.443s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[14.599s] -- Configuring done
+[15.211s] -- Generating done
+[15.244s] -- Build files have been written to: /home/dash/Desktop/ros_ws/build/robot_interfaces
+[15.419s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c[0m
+[15.472s] [  2%] Built target robot_interfaces__cpp
+[15.543s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[15.616s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[15.625s] [ 12%] Built target ament_cmake_python_copy_robot_interfaces
+[15.633s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[15.720s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[15.774s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp[0m
+[15.838s] [ 23%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[15.868s] [ 34%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.927s] [ 44%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[15.970s] [ 55%] Built target robot_interfaces__rosidl_typesupport_cpp
+[15.990s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c[0m
+[16.033s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c[0m
+[16.110s] [ 65%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[16.120s] [ 76%] Built target robot_interfaces__rosidl_typesupport_c
+[16.257s] [ 76%] Built target robot_interfaces
+[16.399s] [ 78%] Built target robot_interfaces__py
+[16.476s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py[0m
+[16.596s] [ 80%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o[0m
+[16.614s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o[0m
+[16.667s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o[0m
+[17.179s] [01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[17.183s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[17.190s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.193s] [01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[17.194s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[17.194s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.195s] compilation terminated.
+[17.196s] compilation terminated.
+[17.197s] gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o] Error 1
+[17.197s] gmake[2]: *** Waiting for unfinished jobs....
+[17.198s] gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:104: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o] Error 1
+[17.206s] [01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[17.207s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[17.208s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.209s] compilation terminated.
+[17.218s] gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o] Error 1
+[17.219s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/all] Error 2
+[17.220s] gmake[1]: *** Waiting for unfinished jobs....
+[18.122s] running egg_info
+[18.125s] writing robot_interfaces.egg-info/PKG-INFO
+[18.126s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[18.128s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[18.141s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[18.145s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[18.305s] [ 85%] Built target ament_cmake_python_build_robot_interfaces_egg
+[18.312s] gmake: *** [Makefile:146: all] Error 2
+[18.319s] Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4

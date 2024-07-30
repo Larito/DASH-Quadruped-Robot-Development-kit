@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.001994] (-) JobUnselected: {'identifier': 'controller'}
+[0.002845] (-) JobUnselected: {'identifier': 'nlp_subsystem'}
+[0.003582] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.003822] (cv_subsystem) JobQueued: {'identifier': 'cv_subsystem', 'dependencies': OrderedDict()}
+[0.004207] (cv_subsystem) JobStarted: {'identifier': 'cv_subsystem'}
+[0.111779] (-) TimerEvent: {}
+[0.213547] (-) TimerEvent: {}
+[0.314477] (-) TimerEvent: {}
+[0.415437] (-) TimerEvent: {}
+[0.516411] (-) TimerEvent: {}
+[0.617548] (-) TimerEvent: {}
+[0.718522] (-) TimerEvent: {}
+[0.823763] (-) TimerEvent: {}
+[0.924763] (-) TimerEvent: {}
+[1.025920] (-) TimerEvent: {}
+[1.127536] (-) TimerEvent: {}
+[1.228710] (-) TimerEvent: {}
+[1.329762] (-) TimerEvent: {}
+[1.430655] (-) TimerEvent: {}
+[1.531627] (-) TimerEvent: {}
+[1.632464] (-) TimerEvent: {}
+[1.733426] (-) TimerEvent: {}
+[1.834706] (-) TimerEvent: {}
+[1.935596] (-) TimerEvent: {}
+[2.036547] (-) TimerEvent: {}
+[2.137411] (-) TimerEvent: {}
+[2.238693] (-) TimerEvent: {}
+[2.339708] (-) TimerEvent: {}
+[2.440756] (-) TimerEvent: {}
+[2.542221] (-) TimerEvent: {}
+[2.644561] (-) TimerEvent: {}
+[2.745816] (-) TimerEvent: {}
+[2.848171] (-) TimerEvent: {}
+[2.949188] (-) TimerEvent: {}
+[3.050307] (-) TimerEvent: {}
+[3.151393] (-) TimerEvent: {}
+[3.252188] (-) TimerEvent: {}
+[3.353087] (-) TimerEvent: {}
+[3.454062] (-) TimerEvent: {}
+[3.559967] (-) TimerEvent: {}
+[3.661415] (-) TimerEvent: {}
+[3.762618] (-) TimerEvent: {}
+[3.864273] (-) TimerEvent: {}
+[3.965147] (-) TimerEvent: {}
+[4.066643] (-) TimerEvent: {}
+[4.168189] (-) TimerEvent: {}
+[4.269007] (-) TimerEvent: {}
+[4.369964] (-) TimerEvent: {}
+[4.470879] (-) TimerEvent: {}
+[4.571836] (-) TimerEvent: {}
+[4.672689] (-) TimerEvent: {}
+[4.773797] (-) TimerEvent: {}
+[4.875130] (-) TimerEvent: {}
+[4.976213] (-) TimerEvent: {}
+[5.077653] (-) TimerEvent: {}
+[5.178753] (-) TimerEvent: {}
+[5.280661] (-) TimerEvent: {}
+[5.384884] (-) TimerEvent: {}
+[5.412502] (cv_subsystem) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dash/Desktop/ros_ws/build/cv_subsystem/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/dash/Desktop/ros_ws/build/cv_subsystem', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dash', 'LC_TIME': 'ar_SA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/lib:/home/dash/Desktop/depthai-ros/install/depthai_filters/lib:/home/dash/Desktop/depthai-ros/install/depthai_bridge/lib:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/lib:/home/dash/Desktop/ros_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dash', 'OLDPWD': '/home/dash/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_SA.UTF-8', 'SYSTEMD_EXEC_PID': '1149', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install:/home/dash/Desktop/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dash', 'IGN_GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dash', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/dash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dash/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/dash:@/tmp/.ICE-unix/1126,unix/dash:/tmp/.ICE-unix/1126', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_SA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/54230dcc_3a29_41f4_b26a_2c350d8c10c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_SA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G89OO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.222', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/home/dash/Desktop/ros_ws/install/robot_interfaces:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_SA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_MEASUREMENT': 'ar_SA.UTF-8', 'GAZEBO_RESOURCE_PATH': '/home/dash/Desktop/depthai-ros/install/depthai_descriptions/share', 'LC_IDENTIFICATION': 'ar_SA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dash/Desktop/ros_ws/build/cv_subsystem', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dash/Desktop/ros_ws/build/cv_subsystem/prefix_override:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/dash/Desktop/ros_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/nlp_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages:/home/dash/Desktop/ros_ws/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_SA.UTF-8', 'LC_PAPER': 'ar_SA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dash/Desktop/depthai-ros/install/depthai-ros:/home/dash/Desktop/depthai-ros/install/depthai_ros_driver:/home/dash/Desktop/depthai-ros/install/depthai_filters:/home/dash/Desktop/depthai-ros/install/depthai_examples:/home/dash/Desktop/depthai-ros/install/depthai_bridge:/home/dash/Desktop/depthai-ros/install/depthai_ros_msgs:/home/dash/Desktop/depthai-ros/install/depthai_descriptions:/home/dash/Desktop/ros_ws/install/robot_interfaces'}, 'shell': False}
+[5.485179] (-) TimerEvent: {}
+[5.586259] (-) TimerEvent: {}
+[5.687224] (-) TimerEvent: {}
+[5.788304] (-) TimerEvent: {}
+[5.898593] (-) TimerEvent: {}
+[5.999493] (-) TimerEvent: {}
+[6.101166] (-) TimerEvent: {}
+[6.202002] (-) TimerEvent: {}
+[6.302927] (-) TimerEvent: {}
+[6.403867] (-) TimerEvent: {}
+[6.505004] (-) TimerEvent: {}
+[6.605946] (-) TimerEvent: {}
+[6.706826] (-) TimerEvent: {}
+[6.807655] (-) TimerEvent: {}
+[6.908544] (-) TimerEvent: {}
+[7.009861] (-) TimerEvent: {}
+[7.110919] (-) TimerEvent: {}
+[7.212375] (-) TimerEvent: {}
+[7.313711] (-) TimerEvent: {}
+[7.414685] (-) TimerEvent: {}
+[7.516124] (-) TimerEvent: {}
+[7.617197] (-) TimerEvent: {}
+[7.673229] (cv_subsystem) StdoutLine: {'line': b'running develop\n'}
+[7.717437] (-) TimerEvent: {}
+[7.818433] (-) TimerEvent: {}
+[7.919254] (-) TimerEvent: {}
+[8.020210] (-) TimerEvent: {}
+[8.121177] (-) TimerEvent: {}
+[8.222111] (-) TimerEvent: {}
+[8.322913] (-) TimerEvent: {}
+[8.423875] (-) TimerEvent: {}
+[8.524793] (-) TimerEvent: {}
+[8.625704] (-) TimerEvent: {}
+[8.726551] (-) TimerEvent: {}
+[8.827462] (-) TimerEvent: {}
+[8.928426] (-) TimerEvent: {}
+[9.029952] (-) TimerEvent: {}
+[9.130938] (-) TimerEvent: {}
+[9.162338] (cv_subsystem) StdoutLine: {'line': b'running egg_info\n'}
+[9.163445] (cv_subsystem) StdoutLine: {'line': b'writing cv_subsystem.egg-info/PKG-INFO\n'}
+[9.165496] (cv_subsystem) StdoutLine: {'line': b'writing dependency_links to cv_subsystem.egg-info/dependency_links.txt\n'}
+[9.166517] (cv_subsystem) StdoutLine: {'line': b'writing entry points to cv_subsystem.egg-info/entry_points.txt\n'}
+[9.167548] (cv_subsystem) StdoutLine: {'line': b'writing requirements to cv_subsystem.egg-info/requires.txt\n'}
+[9.168591] (cv_subsystem) StdoutLine: {'line': b'writing top-level names to cv_subsystem.egg-info/top_level.txt\n'}
+[9.178125] (cv_subsystem) StdoutLine: {'line': b"reading manifest file 'cv_subsystem.egg-info/SOURCES.txt'\n"}
+[9.182442] (cv_subsystem) StdoutLine: {'line': b"writing manifest file 'cv_subsystem.egg-info/SOURCES.txt'\n"}
+[9.190649] (cv_subsystem) StdoutLine: {'line': b'running build_ext\n'}
+[9.192050] (cv_subsystem) StdoutLine: {'line': b'Creating /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/python3.10/site-packages/cv-subsystem.egg-link (link to .)\n'}
+[9.196102] (cv_subsystem) StdoutLine: {'line': b'Installing gesture_recognizer script to /home/dash/Desktop/ros_ws/install/cv_subsystem/lib/cv_subsystem\n'}
+[9.197897] (cv_subsystem) StdoutLine: {'line': b'\n'}
+[9.198701] (cv_subsystem) StdoutLine: {'line': b'Installed /home/dash/Desktop/ros_ws/build/cv_subsystem\n'}
+[9.199423] (cv_subsystem) StdoutLine: {'line': b'running symlink_data\n'}
+[9.200002] (cv_subsystem) StdoutLine: {'line': b'symbolically linking /home/dash/Desktop/ros_ws/build/cv_subsystem/resource/cv_subsystem -> /home/dash/Desktop/ros_ws/install/cv_subsystem/share/ament_index/resource_index/packages\n'}
+[9.200922] (cv_subsystem) StdoutLine: {'line': b'symbolically linking /home/dash/Desktop/ros_ws/build/cv_subsystem/package.xml -> /home/dash/Desktop/ros_ws/install/cv_subsystem/share/cv_subsystem\n'}
+[9.231388] (-) TimerEvent: {}
+[9.348601] (-) TimerEvent: {}
+[9.418634] (cv_subsystem) CommandEnded: {'returncode': 0}
+[9.449575] (-) TimerEvent: {}
+[9.557199] (-) TimerEvent: {}
+[9.562256] (cv_subsystem) JobEnded: {'identifier': 'cv_subsystem', 'rc': 0}
+[9.567160] (-) EventReactorShutdown: {}

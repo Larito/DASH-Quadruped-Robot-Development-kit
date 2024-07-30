@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/ImageCapture.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct ImageCapture_Request {
+      string command;
+    };
+    struct ImageCapture_Response {
+      string image_base64;
+    };
+  };
+};

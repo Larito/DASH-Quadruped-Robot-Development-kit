@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/Config.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct Config_Request {
+      string full_name;
+
+      string age;
+
+      string blood_type;
+
+      string medical_notes;
+
+      string allergies;
+
+      string weight;
+
+      string height;
+
+      string primary_language;
+
+      string password;
+
+      boolean requesting;
+    };
+    struct Config_Response {
+      string full_name;
+
+      string age;
+
+      string blood_type;
+
+      string medical_notes;
+
+      string allergies;
+
+      string weight;
+
+      string height;
+
+      string primary_language;
+
+      string password;
+    };
+  };
+};

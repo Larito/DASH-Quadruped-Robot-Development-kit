@@ -1,0 +1,2 @@
+
+string out_msg

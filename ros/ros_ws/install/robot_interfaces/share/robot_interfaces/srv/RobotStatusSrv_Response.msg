@@ -1,0 +1,3 @@
+
+int32 battery_level
+int32 current_mode

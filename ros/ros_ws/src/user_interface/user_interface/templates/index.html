@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ROS2 Flask Server</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var socket = io();
+            document.getElementById("myButton").addEventListener("click", function() {
+                socket.emit('button_click', {data: 'Button clicked!'});
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>ROS2 Flask Server</h1>
+    <button id="myButton">Click me</button>
+</body>
+</html>

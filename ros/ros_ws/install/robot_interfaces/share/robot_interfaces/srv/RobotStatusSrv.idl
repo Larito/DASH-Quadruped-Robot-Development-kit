@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/RobotStatusSrv.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct RobotStatusSrv_Request {
+      boolean formality;
+    };
+    struct RobotStatusSrv_Response {
+      int32 battery_level;
+
+      int32 current_mode;
+    };
+  };
+};

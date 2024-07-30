@@ -1,0 +1,42 @@
+[5.650s] Invoking command in '/home/dash/Desktop/ros_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
+[6.202s] [  2%] Built target robot_interfaces__cpp
+[6.369s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[6.610s] [ 23%] Built target robot_interfaces__rosidl_typesupport_cpp
+[6.727s] [ 34%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[6.787s] [ 34%] Built target ament_cmake_python_copy_robot_interfaces
+[6.839s] [ 44%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.131s] [ 55%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[7.424s] [ 65%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[7.450s] [ 76%] Built target robot_interfaces__rosidl_typesupport_c
+[7.674s] [ 76%] Built target robot_interfaces
+[7.827s] [ 78%] Built target robot_interfaces__py
+[8.015s] [ 80%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o[0m
+[8.076s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o[0m
+[8.079s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o[0m
+[9.139s] [01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[9.140s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[9.141s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.141s] compilation terminated.
+[9.148s] [01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[9.149s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[9.150s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.151s] compilation terminated.
+[9.168s] gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_handshake_s.c.o] Error 1
+[9.169s] gmake[2]: *** Waiting for unfinished jobs....
+[9.181s] gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_lm_chat_s.c.o] Error 1
+[9.409s] [01m[K/home/dash/Desktop/ros_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[9.410s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[9.418s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.420s] compilation terminated.
+[9.434s] gmake[2]: *** [CMakeFiles/robot_interfaces__rosidl_generator_py.dir/build.make:104: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_robot_status_srv_s.c.o] Error 1
+[9.437s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/robot_interfaces__rosidl_generator_py.dir/all] Error 2
+[9.438s] gmake[1]: *** Waiting for unfinished jobs....
+[11.247s] running egg_info
+[11.248s] writing robot_interfaces.egg-info/PKG-INFO
+[11.249s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[11.251s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[11.277s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[11.282s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[11.518s] [ 85%] Built target ament_cmake_python_build_robot_interfaces_egg
+[11.530s] gmake: *** [Makefile:146: all] Error 2
+[11.547s] Invoked command in '/home/dash/Desktop/ros_ws/build/robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dash/Desktop/ros_ws/install/nlp_subsystem:/home/dash/Desktop/ros_ws/install/cv_subsystem:/home/dash/Desktop/ros_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/dash/Desktop/ros_ws/build/robot_interfaces -- -j4 -l4
